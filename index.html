@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D-Daybook</title>
+<link rel="icon" href="data:,">
+<meta name="description" content="D-Daybook: your day, lists, shopping and notes in one place, on iPhone and Apple Watch.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f7f8fa; --paper: #ffffff; --fg: #1b2230; --muted: #4a5568; --accent: #1f5fbf; --line: #dfe3ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #10141b; --paper: #171c25; --fg: #e8ecf2; --muted: #b4bdcb; --accent: #7fb0ff; --line: #2a3240; }
+  }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 32px 16px 64px;
+  }
+  main { max-width: 42rem; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+  h1, h2 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; line-height: 1.2; margin: 0; }
+  h1 { font-size: 2.2rem; }
+  h2 { font-size: 1.35rem; margin-bottom: 8px; }
+  h3 { font-size: 1.05rem; margin: 16px 0 4px; }
+  p, ul { margin: 0 0 10px; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); overflow-wrap: anywhere; }
+  .meta { color: var(--muted); margin-top: 8px; }
+  .short { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 18px 22px; }
+  section + section { border-top: 1px solid var(--line); padding-top: 24px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>D-Daybook</h1>
+    <p class="meta">Your day, your lists, your shopping and your notes, in one place, on iPhone and Apple Watch.</p>
+  </header>
+
+  <div class="short">
+    <h2>Private by design</h2>
+    <p>Your appointments, lists and notes stay on your iPhone and in your own iCloud. We cannot see them. There is no account, no tracking and no adverts, and nothing is sold or shared.</p>
+  </div>
+
+  <section>
+    <ul>
+      <li><a href="support">Support</a></li>
+      <li><a href="privacy">Privacy policy</a></li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>
